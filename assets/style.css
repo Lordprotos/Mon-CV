@@ -1,0 +1,27 @@
+header{
+    background-color: #782221;
+    color: white;
+}
+
+#block{
+    background-color: #2c1d27;
+}
+
+#block1{
+    background-color: white;
+}
+
+#block2{
+    background-color: #782221;
+    color: white;
+}
+
+h3{
+    background-color: #dbc2a4;
+    color: black;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+}
