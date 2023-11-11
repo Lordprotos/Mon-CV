@@ -5,7 +5,17 @@ header{
 
 body{
     width: 1160px;
-    padding-right: 20px;
+    margin: auto;
+
+}
+
+#photoprofil{
+    width: 100px;
+    height: 100px;
+    border: 0px solid;
+    border-radius: 180px;
+    box-shadow: 0px 0px 10px 5px white;
+    cursor: zoom-in;
 }
 
 header img{
@@ -25,9 +35,15 @@ header img{
 
 #block{
     background-color: #2c1d27;
+    color: white;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#block a:hover{
+    text-decoration: underline;
 }
 
 #block1{
@@ -76,12 +92,10 @@ footer{
 }
 
 footer img{
-    height: 40px;
-    width: 40px;
-    opacity: 0.4;
+    height: 35px;
+    width: 35px;    
 }
 
-a:hover{
-    text-decoration: underline;
+footer img:hover{
+    opacity: 0.6;
 }
-
